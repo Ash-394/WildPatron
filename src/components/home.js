@@ -37,7 +37,7 @@ const Home = (props) => {
           </Nav>
           <Navbar.Collapse className="justify-content-end">
             <Button onClick={handleShow} variant="dark">
-              <h5> Add Campaign </h5>
+              <h5> Add Animal </h5>
             </Button>
           </Navbar.Collapse>
         </Container>
@@ -45,7 +45,7 @@ const Home = (props) => {
 
       <Modal show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
-          <Modal.Title>New Campaign</Modal.Title>
+          <Modal.Title>New Animal</Modal.Title>
         </Modal.Header>
         <Form>
           <Modal.Body>
@@ -111,11 +111,11 @@ const Home = (props) => {
             variant="dark"
             disabled={!isFormFilled()}
             onClick={() => {
-              props.addCampaign(image, description, beneficiary, goal);
+              props.addAnimal(image, description, beneficiary, goal);
               handleClose();
             }}
           >
-            Add Campaign
+            Add animal
           </Button>
         </Modal.Footer>
       </Modal>

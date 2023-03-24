@@ -3,39 +3,39 @@ import { useState } from "react";
 import { Card, Badge, Col, Stack, Button, Row } from "react-bootstrap";
 
 export const Campaigns = (props) => {
-  const [ammount, setAmmount] = useState("");
+  const [amount, setAmmount] = useState("");
   return (
     <Row xs={1} md={3} className="g-4">
-      {props.campaigns.map((campaign) => (
-        <Col key={campaign.index}>
+      {props.animals.map((animals) => (
+        <Col key={animals.index}>
           <Card className="h-100">
             <Card.Header>
               <Stack direction="horizontal" gap={2}>
                 <Badge bg="secondary" className="ms-auto">
-                  {campaign.index} ID
+                  {animal.index} ID
                 </Badge>
 
                 <Badge bg="secondary" className="ms-auto">
-                  goal: {campaign.goal}cUSD
+                  goal: {animal.goal}cUSD
                 </Badge>
 
                 <Badge bg="secondary" className="ms-auto">
-                  {campaign.totalRaised} cUSD Raised
+                  {animal.totalRaised} cUSD Raised
                 </Badge>
               </Stack>
             </Card.Header>
 
             <div className=" ratio ratio-4x3">
               <img
-                src={campaign.image}
-                alt={campaign.description}
+                src={animals.image}
+                alt={animals.description}
                 style={{ objectFit: "cover" }}
               />
             </div>
 
             <Card.Body className="d-flex  flex-column text-center">
               <Card.Text className="flex-grow-1">
-                {campaign.description}
+                {animals.description}
               </Card.Text>
 
               <form>
@@ -43,7 +43,7 @@ export const Campaigns = (props) => {
                   <input
                     type="number"
                     class="form-control mt-3"
-                    value={ammount}
+                    value={amount}
                     onChange={(e) => setAmmount(e.target.value)}
                     placeholder="enter ammount"
                   />
