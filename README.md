@@ -4,6 +4,7 @@ Deployed Contract Address:
 
 ### Filecoin FVM - 0xA38240C200C2A7524501CEeE903533537D03624a
 ### 5IRE - 0x1989536208980d34e04155197c506053f5fFFf0f
+### NEAR (AURORA) - 0x2004A06161c3F1922D511D6E26cec20a72A29d68
 
 Front End :
 (https://github.com/Harshajny/Wild-Patron-Front-End/tree/main)
