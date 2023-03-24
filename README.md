@@ -45,7 +45,7 @@ Illustrate how our project has affected the number of threatened species and the
 Also users can view how their contributions have helped in improving the global condition and view the amount of contributed. 
 
 Figma
-For designing the  UI/UX of the project
+[Click here to view the UI]( (https://www.figma.com/file/Zi9aZAl2BV0aBkl5vTt4bL/Untitled?node-id=0-1&t=lvC6E5hRUJA60R7l-0))
 
 [Click here to view the Demo Video](https://drive.google.com/file/d/1ZLNXX_cLK4ZhdlD5Im47USA5LmzefLzA/view?usp=sharing)
 ## Made With ♥ By
